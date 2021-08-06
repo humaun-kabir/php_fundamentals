@@ -16,7 +16,7 @@
     //ex : fwrite($handle, "new text");
 
     $handle = fopen("tausif.txt","w");
-    fwrite($handle, "hello tausif");
+    fwrite($handle, "hello tausif"); 
 
     //appending to files
     $handle = fopen("geek.txt","a");

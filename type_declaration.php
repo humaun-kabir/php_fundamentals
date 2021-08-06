@@ -14,8 +14,10 @@
         return ($a+$b);
     }
 
-    echo "<br>";
+    
     echo add(2,"30");
+
+    echo "<br>";
 
     function con(string $a, string $b){
         echo '$a is'. gettype($a) . "type variable and value = $a";
